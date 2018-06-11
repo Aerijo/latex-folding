@@ -1,0 +1,26 @@
+{
+  "name": "latex-folding",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Code folding support for LaTeX",
+  "keywords": [
+    "latex",
+    "folding"
+  ],
+  "bugs": {
+    "url": "https://github.com/Aerijo/latex-folding/issues"
+  },
+  "author": "Aerijo",
+  "repository": "https://github.com/Aerijo/latex-folding",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "activationHooks": [
+    "language-latex:grammar-used",
+    "language-latex2e:grammar-used"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
