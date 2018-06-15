@@ -1,7 +1,7 @@
 {
   "name": "latex-folding",
   "main": "./lib/main",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "EXPERIMENTAL: Code folding support for LaTeX",
   "keywords": [
     "latex",
