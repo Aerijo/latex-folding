@@ -21,7 +21,6 @@
     "language-latex2e:grammar-used"
   ],
   "dependencies": {
-    "first-mate": "*",
     "atom-space-pen-views": "*"
   }
 }
