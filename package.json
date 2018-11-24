@@ -2,7 +2,7 @@
   "name": "latex-folding",
   "main": "./lib/main",
   "version": "0.2.1",
-  "description": "EXPERIMENTAL: Code folding support for LaTeX",
+  "description": "Code folding support for LaTeX",
   "keywords": [
     "latex",
     "folding"
@@ -20,7 +20,11 @@
     "language-latex:grammar-used",
     "language-latex2e:grammar-used"
   ],
-  "dependencies": {
-    "atom-space-pen-views": "*"
+  "configSchema": {
+    "allowSameLineFolds": {
+      "description": "Enable this to allow folds to start and end on the same line.",
+      "type": "boolean",
+      "default": false
+    }
   }
 }
