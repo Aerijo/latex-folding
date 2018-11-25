@@ -18,13 +18,9 @@
   },
   "activationHooks": [
     "language-latex:grammar-used",
-    "language-latex2e:grammar-used"
+    "language-latex2e:grammar-used",
+    "text.tex.latex:root-scope-used"
   ],
   "configSchema": {
-    "allowSameLineFolds": {
-      "description": "Enable this to allow folds to start and end on the same line.",
-      "type": "boolean",
-      "default": false
-    }
   }
 }
