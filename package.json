@@ -20,7 +20,5 @@
     "language-latex:grammar-used",
     "language-latex2e:grammar-used",
     "text.tex.latex:root-scope-used"
-  ],
-  "configSchema": {
-  }
+  ]
 }
