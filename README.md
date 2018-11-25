@@ -1,6 +1,6 @@
 # latex-folding
-Code folding for LaTeX in Atom (modelled off [`custom-folds`](https://atom.io/packages/custom-folds)).
+The best (and only?) folding for LaTeX in Atom.
 
-Just finished a working version, so no guarantees for bugs, etc. Close the tab and reopen it if something goes wrong.
+Major changes this update, should be working as well as the inbuilt indentation based folding does (but note that has been removed; am able to make it configurable).
 
-This package never modifies / deletes text; all changes are visual and will be reset if the tab is closed. Having said that, please always make a backup of your files.
+This package overrides core folding methods, but never modifies / deletes text. All changes are visual and will be reset if the tab is closed. Having said that, please always make a backup of your files.
