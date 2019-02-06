@@ -20,5 +20,12 @@
     "language-latex:grammar-used",
     "language-latex2e:grammar-used",
     "text.tex.latex:root-scope-used"
-  ]
+  ],
+  "configSchema": {
+    "foldTrailingSectionWhitespace": {
+      "description": "Enable to fold everything up until the next section, including trailing whitespace.",
+      "type": "boolean",
+      "default": false
+    }
+  }
 }
