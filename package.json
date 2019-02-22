@@ -14,18 +14,34 @@
   "repository": "https://github.com/Aerijo/latex-folding",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.34.0 <2.0.0"
   },
   "activationHooks": [
-    "language-latex:grammar-used",
-    "language-latex2e:grammar-used",
     "text.tex.latex:root-scope-used"
+  ],
+  "dependencies": {
+    "atom-package-deps": "5.0.0"
+  },
+  "package-deps": [
+    "atom-folding"
   ],
   "configSchema": {
     "foldTrailingSectionWhitespace": {
       "description": "Enable to fold everything up until the next section, including trailing whitespace.",
       "type": "boolean",
       "default": false
+    },
+    "lenientEnvironmentEnds": {
+      "description": "Does not look at what the environment end name is, only balances their number",
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "providedServices": {
+    "folding.provider": {
+      "versions": {
+        "0.0.0": "provideFolding"
+      }
     }
   }
 }
