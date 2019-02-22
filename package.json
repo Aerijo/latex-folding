@@ -31,6 +31,11 @@
       "type": "boolean",
       "default": false
     },
+    "foldTrailingPreambleWhitespace": {
+      "description": "Enable to fold everything from \\documentclass{...} to \\begin{document}, including trailing whitespace.",
+      "type": "boolean",
+      "default": false
+    },
     "lenientEnvironmentEnds": {
       "description": "Does not look at what the environment end name is, only balances their number",
       "type": "boolean",
